@@ -1,0 +1,99 @@
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+.nav-item-main{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#log{
+    padding: 15px ;
+    border: 1px solid black;
+    width: 120%;
+    background: white;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+#play{
+    padding: 15px ;
+    border: 1px solid black;
+    width: 120%;
+    background: darkred;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 310px;
+}
+
+.display-4 {
+    color: #ffffff;
+    font: 36px "Noto Sans", Arial, "HoloLens MDL2 Assets", sans-serif;
+    background: #000000;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.download{
+    padding: 15px ;
+    border: 1px solid black;
+    width: 30%;
+    background: darkred;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    box: flex-end;
+    margin-bottom: 30px;
+}
+
+.requirements {
+    color:  white;
+    font: 16px "Noto Sans", Arial, "HoloLens MDL2 Assets", sans-serif;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+.nav-link-bottom{
+    color: white;
+    margin-right: 10px;
+}
+
+/* Estilos para pantallas de teléfonos*/
+@media (max-width: 767px) {
+    .display-4 {
+      font-size: 24px;
+    }
+    .requirements {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para pantallas de tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .display-4 {
+      font-size: none;
+    }
+    .requirements {
+      font-size: none;
+    }
+  }
+  
+ 
+  

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Presentación</title>
+    <!-- Incluye los archivos CSS de Bootstrap desde la CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-html.css">
+</head>
+<body>
+<!-- Barra de navegación -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light texto-negro">
+        <div class="container">
+            <!-- Agrega tu logo en el lugar del texto "Logo" -->
+            <a class="navbar-brand" href="#"><img src="../img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item-main">
+                        <a class="nav-link" id="log" href="#contact">LOG IN</a>
+                    </li>
+                    <li class="nav-item-main">
+                        <a class="nav-link" id="play" href="#contact">PLAY FREE NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+<video id="video-background" autoplay muted loop>
+    <source src="../img/background.webm" type="video/mp4">
+    Tu navegador no admite la reproducción de videos HTML5.
+  </video>
+
+<section id="about" class="py-5 d-flex justify-content-center align-items-center">
+
+    <div class="specifications text-center">
+        <h1 class="display-4">DOWNLOAD</h1>
+        <div class="requirements">
+            <button class="download">Download Now</button>
+            <br>
+            <p>Standalone installer available here. The standalone installer is slower to install than the regular download, and is intended for multi-installs for places that need them like internet cafes</p>
+            <br>
+            <h4>SYSTEM REQUIREMENTS</h4>
+            <br>
+            <p>OS: Windows 7 64-Bit (32-bit not supported)</p>
+            <p>Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required)</p>
+            <p>Video: DirectX 11+ capable Graphics Card</p>
+            <p>Memory: 4 GB RAM</p>
+            <p>Storage: 50 GB available HD space</p>
+            <p>Internet: Broadband Internet Connection</p>
+            <h3>Note: There is no Mac or Linux support currently available</h3>
+        </div>
+    </div>
+
+</section>
+
+<!-- Incluye el archivo JavaScript de Bootstrap (opcional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    <nav class="navbar navbar-expand-lg nnavbar-dark bg-dark">
+        <div class="container">
+            <!-- Agrega tu logo en el lugar del texto "Logo" -->
+            <a class="navbar-brand" href="#"><img src="../img/headerLogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#support">Support</a>
+                    </li>
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#press">Press</a>
+                    </li>
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#terms">Terms of Use</a>
+                    </li>
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#privacy">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#eula">EULA</a>
+                    </li>
+                    <li class="nav-item-footer">
+                        <a class="nav-link-bottom" href="#cookies">Cookies Setting</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</footer>
